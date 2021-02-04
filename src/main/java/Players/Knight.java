@@ -2,7 +2,7 @@ package Players;
 
 import java.util.ArrayList;
 
-public class Knight extends Player  {
+public class Knight extends Fighter  {
 
     private int armour;
     private String chivalry;

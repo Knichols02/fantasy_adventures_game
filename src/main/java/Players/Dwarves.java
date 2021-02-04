@@ -1,6 +1,6 @@
 package Players;
 
-public class Dwarves extends Player {
+public class Dwarves extends Fighter {
 
 
     public Dwarves(String name, String race, int health, int pointsCollected) {

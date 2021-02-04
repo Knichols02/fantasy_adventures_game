@@ -4,19 +4,15 @@ import java.util.ArrayList;
 
 public class MagicDudes extends Player {
 
-    private ArrayList<Weapon> spells;
+    private Weapon staff;
 
-    public MagicDudes(String name, String race, int health, int pointsCollected) {
+    public MagicDudes(String name, String race, int health, int pointsCollected, Weapon staff) {
         super(name, race, health, pointsCollected);
-        this.spells = new ArrayList<Weapon>();
+        this.staff = staff;
     }
 
-    public ArrayList<Weapon> getWeapons() {
-        return spells;
-    }
-
-    public void addWeapon(Weapon weapon){
-        this.spells.add(weapon);
+    public Weapon getWeapons() {
+        return staff;
     }
 
 }
