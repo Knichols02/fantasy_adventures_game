@@ -8,13 +8,11 @@ public class Knight extends Player  {
     private String chivalry;
 
     public Knight(String name, ArrayList<Weapon> weapons,  String race, int health,
-                  int pointsCollected,
-                  int armour, String chivalry) {
+                  int pointsCollected, int armour, String chivalry) {
 
         super(name, weapons, race, health, pointsCollected);
         this.armour = armour;
         this.chivalry = chivalry;
-
     }
 
     public int getArmour() {
