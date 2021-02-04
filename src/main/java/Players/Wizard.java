@@ -7,7 +7,7 @@ public class Wizard extends MagicDudes implements ISpell {
 
     private String incantation;
 
-    public Wizard(String name, String race, int health, int pointsCollected, Weapon staff,
+    public Wizard(String name, String race, int health, int pointsCollected, String staff,
                   String incantation) {
         super(name, race, health, pointsCollected, staff);
         this.incantation = incantation;
