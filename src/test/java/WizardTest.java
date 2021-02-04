@@ -6,6 +6,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class WizardTest {
 
@@ -36,5 +37,10 @@ public class WizardTest {
     @Test
     public void canGetPointsCollection(){
         assertEquals(20, wizard.getPointsCollected());
+    }
+
+    @Test
+    public void canGetIncantation(){
+        assertEquals("Toadify", wizard.getIncantation());
     }
 }
