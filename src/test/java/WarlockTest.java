@@ -14,7 +14,7 @@ public class WarlockTest {
     public void before(){
         spells = new Spell("Bibbidi-Bobbidi-Boo");
         warlock = new Warlock("Abra-Merlin", "Warlock", 100, 20,
-                "staff" );
+                "staff", "Toadify");
     }
 
     @Test
@@ -34,5 +34,10 @@ public class WarlockTest {
     @Test
     public void canGetPointsCollection(){
         assertEquals(20, warlock.getPointsCollected());
+    }
+
+    @Test
+    public void canGetIncantation(){
+        assertEquals("Toadify", warlock.getIncantation());
     }
 }

@@ -16,4 +16,8 @@ public class Wizard extends MagicDudes implements ISpell {
     public String getIncantation() {
         return incantation;
     }
+
+    public void setIncantation(String incantation) {
+        this.incantation = incantation;
+    }
 }

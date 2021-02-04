@@ -18,4 +18,6 @@ public class Fighter extends Player {
     public void addWeapon(Weapon weapon){
         this.weapons.add(weapon);
     }
+
+
 }

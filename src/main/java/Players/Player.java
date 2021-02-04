@@ -1,5 +1,8 @@
 package Players;
 
+import RoomFeatures.Creature;
+import RoomFeatures.Treasure;
+
 import java.util.ArrayList;
 
 public abstract class Player {
@@ -33,4 +36,20 @@ public abstract class Player {
     public int getPointsCollected() {
         return pointsCollected;
     }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
+    public void setPointsCollected(int pointsCollected) {
+        this.pointsCollected = pointsCollected;
+    }
+
+    public void addFightingPoints(Creature creature){
+        this.pointsCollected += creature.getPointsValue();
+    }
+
+//    public void addTreasurePoints(Treasure treasure){
+//
+//    }
 }
