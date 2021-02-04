@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Barbarian extends Player {
 
-    public Barbarian(String name, ArrayList<Weapon> weapons, String race, int health, int pointsCollected) {
-        super(name, weapons, race, health, pointsCollected);
+    public Barbarian(String name, String race, int health, int pointsCollected) {
+        super(name, race, health, pointsCollected);
     }
 
 

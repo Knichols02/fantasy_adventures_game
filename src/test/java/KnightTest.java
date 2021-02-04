@@ -11,13 +11,13 @@ import static org.junit.Assert.assertTrue;
 public class KnightTest {
 
     Knight knight;
-    Weapon weapons;
+    Weapon sword;
 
 
     @Before
     public void before(){
-        weapons = new Weapon("Sword"); //??
-        knight = new Knight("Sir Lancelot",  , "Knight", 100, 10,
+        sword = new Weapon("Sword");
+        knight = new Knight("Sir Lancelot", "Knight", 100, 10,
                 40, "Tis the mission of each Knight to dream the impossible dream!");
     }
 
